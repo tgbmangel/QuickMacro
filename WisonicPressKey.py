@@ -148,6 +148,7 @@ class WisonicKey():
         #常用快捷键结束检查
         self.PressKey("Ctrl","E")
     def Duuu(self):
+        #发出‘嘟’的一声
         windll.kernel32.Beep()
 
 if __name__=="__main__":
